@@ -1,3 +1,8 @@
+0.2.1
+
+- Added config variables to os.environ. This is important to set before imports
+  that check for Python version in the APPENGINE_RUNTIME environment variable.
+
 0.2.0
 
 - Updated hook for compatibility with SDK 1.6.0+ (#59). 
